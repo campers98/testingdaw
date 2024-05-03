@@ -89,7 +89,6 @@ async def PrivateNote(client, message):
             )
             
 @app.on_message(filters.command("clear") & admin_filter)
-@user_admin
 async def Clear_Note(client, message):
     chat_id = message.chat.id 
     if not (
