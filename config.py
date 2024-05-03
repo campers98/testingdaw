@@ -7,31 +7,31 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("24086498"))
+API_HASH = getenv("0c459b186767a4634604c740c001c0c3")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6041305578:AAH1VT8vPYC2hwb4snT0sYd4SMS9FKsrbj0")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Rudra0_9_1")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Songjoker1")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "angle_Lotous1_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Testingmulti_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "𝐀𝐍𝐍𝐈𝐄 𝐗 𝐌𝐔𝐒𝐈𝐂")
+BOT_NAME = getenv("BOT_NAME" , "Testingmulti")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "musicXannie")
-EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "songchoker")
+EVALOP = list(map(int, getenv("EVALOP", "5259884546").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002081988204))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001975251757))
 
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1698987691))
+OWNER_ID = int(getenv("OWNER_ID", 5259884546))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,7 +41,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/doraemon890/ANNIE-X-MUSIC",
+    "https://github.com/podafool/Annimesongg",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -80,7 +80,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFvh-IAqWiTjUGgEAoIbkdZDY7GHpoTDwKFrx6rJuAIjHFitq0h2cmlP1J-Vf3nwOutIq_TqsyxuOUnKBrABu42xNVXBXDilc7F6buMuCSSnN1yB_Nea2QsSMPuxa39m4F8jD35Q0YtGATbo4YW86tAUGe6mL1utMOwscBccKLx4zude52OUBWLqDSnH2_C2DoWsBPcMfSzEIikzD_bnN6ulnlEausOtvxcacG2gaDXKrI4ykLjQKi2-svLQW27flY51IANJYH9CYLPsInLfMo9fedyvVZLAIk8FtsWSTZPBjJIrYSFn5BF6hobnEmrq7otjE6EjKR8XSqWWoYCzQt8H2vOHQAAAAE5g3gCAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
