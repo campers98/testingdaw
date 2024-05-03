@@ -57,3 +57,4 @@ pycryptodome
 opencv-python
 yaml
 pyyaml
+pymongo
