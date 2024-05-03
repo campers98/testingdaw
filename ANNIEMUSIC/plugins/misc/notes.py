@@ -4,13 +4,11 @@ from pyrogram import filters
 from ANNIEMUSIC.utils.jarvis_ban import admin_filter
 from ANNIEMUSIC.mongo.notesdb import *
 from ANNIEMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from ANNIEMUSIC.utils.yumidb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
 
 @app.on_message(filters.command("save") & admin_filter)
-@user_admin
 async def _save(client, message):
     chat_id = message.chat.id
     chat_title = message.chat.title
