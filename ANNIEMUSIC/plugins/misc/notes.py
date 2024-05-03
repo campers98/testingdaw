@@ -51,7 +51,6 @@ PRIVATE_NOTES_TRUE = ['on', 'true', 'yes', 'y']
 PRIVATE_NOTES_FALSE = ['off', 'false', 'no', 'n']
 
 @app.on_message(filters.command("privatenotes") & filters.group)
-@user_admin
 async def PrivateNote(client, message):
     chat_id = message.chat.id
     if len(message.command) >= 2:
