@@ -54,3 +54,4 @@ img2pdf
 cloudscraper
 pycryptodome
 opencv-python
+yaml
