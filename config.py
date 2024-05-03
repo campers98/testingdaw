@@ -29,9 +29,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001975251757))
 
 # ------------------------------------------------
-GPT_API = getenv("GPT_API")
+GPT_API = getenv("sk-proj-mywH9SfPWQuT2QhGLhKkT3BlbkFJUafYpIlrEpoYbz9rcy8L")
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5259884546))
+OWNER_ID = int(getenv("OWNER_ID", 655594746))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
