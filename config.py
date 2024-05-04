@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", 27957041))
 API_HASH = getenv("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6270407253:AAF6nlAPgIDvgBtrqNZugCbRE__6uIQypMY")
+BOT_TOKEN = getenv("6270407253:AAG_Cn4hJbIcQYCYeYMJFtk0vZiVIRgPyo8")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","Soupboy_single")
 # Get Your bot username
