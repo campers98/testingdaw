@@ -51,6 +51,7 @@ openai==0.28.0
 pickledb
 python-telegram-bot==21.1.1
 img2pdf
+aiogram
 cloudscraper
 pycryptodome
 opencv-python
