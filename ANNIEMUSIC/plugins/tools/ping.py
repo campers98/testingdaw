@@ -27,7 +27,7 @@ async def make_carbon(code):
 
     # Save the modified image to BytesIO object with increased quality
     output_image = BytesIO()
-    bright_image.save(output_image, format='PNG', quality=95)  # Adjust quality as needed
+    bright_image.save(output_image, format='PNG', quality=100)  # Adjust quality as needed
     output_image.name = "carbon.png"
     return output_image
 
@@ -35,7 +35,7 @@ async def make_carbon(code):
 @language
 async def ping_com(client, message: Message, _):
     PING_IMG_URL = "https://telegra.ph/file/5a4b3b782cb0257dca491.jpg"
-    captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
+    captionss = "**💻 𝗖𝗮𝗹𝗹𝗶𝗻𝗴 𝘁𝗵𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
     await response.edit_caption("**🙀𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 𝘀𝗲𝗿𝘃𝗲𝗿..**")
