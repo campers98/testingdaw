@@ -32,10 +32,10 @@ def pypi_info_command(client, message):
         
         if pypi_info:
             # Creating a message with PyPI information
-            info_message = f"ᴘᴀᴄᴋᴀɢᴇ ɴᴀᴍᴇ ➪ {pypi_info['info']['name']}\n\n" \
-                           f"Lᴀᴛᴇsᴛ ᴠɪʀsɪᴏɴ➪ {pypi_info['info']['version']}\n\n" \
-                           f"Dᴇsᴄʀɪᴘᴛɪᴏɴ➪ {pypi_info['info']['summary']}\n\n" \
-                           f"ᴘʀᴏJᴇᴄᴛ ᴜʀʟ➪ {pypi_info['info']['project_urls']['Homepage']}"
+            info_message = f"◗◖ ᴘᴀᴄᴋᴀɢᴇ ɴᴀᴍᴇ ◗◖➪ {pypi_info['info']['name']}\n\n" \
+                           f"◗◖ Lᴀᴛᴇsᴛ ᴠɪʀsɪᴏɴ◗◖➪ {pypi_info['info']['version']}\n\n" \
+                           f"◗◖ Dᴇsᴄʀɪᴘᴛɪᴏɴ ◗◖➪ {pypi_info['info']['summary']}\n\n" \
+                           f"◗◖ ᴘʀᴏJᴇᴄᴛ ᴜʀʟ◗◖ ➪ {pypi_info['info']['project_urls']['Homepage']}"
             
             # Sending the PyPI information back to the user
             client.send_message(message.chat.id, info_message)
