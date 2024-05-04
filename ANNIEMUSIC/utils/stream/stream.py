@@ -13,7 +13,7 @@ from ANNIEMUSIC.utils.exceptions import AssistantErr
 from ANNIEMUSIC.utils.inline import aq_markup, close_markup, stream_markup
 from ANNIEMUSIC.utils.pastebin import ANNIEBIN
 from ANNIEMUSIC.utils.stream.queue import put_queue, put_queue_index
-from ANNIEMUSIC.utils.thumbnails import gen_thumb
+from ANNIEMUSIC.utils.thumbnails import get_thumb
 
 
 async def stream(
