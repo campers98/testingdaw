@@ -48,57 +48,50 @@ EMOJI = [ "🦋🦋🦋🦋🦋",
           " 🥬🍉🧁🧇",
         ]
 
-TAGMES = [ " **※ ɪ ʟᴏᴠᴇ ʏᴏᴜ...ᰔᩚ**",
-           " **※ ғᴏʀɢᴇᴛ ᴍᴇ..ᰔᩚ",
-           " **※ ɪ ᴅᴏɴ'ᴛ ʟᴏᴠᴇ ʏᴏᴜ...ᰔᩚ**",
-           " **※ ᴍᴀᴋᴇ ɪᴛ ʏᴏᴜʀs ᴘɪʏᴀ, ᴍᴀᴋᴇ ɪᴛ ʏᴏᴜʀs...ᰔᩚ**",
-           " **※ ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ ᴀʟsᴏ...ᰔᩚ**",
-           " **※ ɪ ᴋᴇᴘᴛ ʏᴏᴜʀ ɴᴀᴍᴇ ɪɴ ᴍʏ ʜᴇᴀʀᴛ...ᰔᩚ**",
-           " **※ ᴡʜᴇʀᴇ ᴀʀᴇ ᴀʟʟ ʏᴏᴜʀ ғʀɪᴇɴᴅs...ᰔᩚ**",
-           " **※ ɪɴ ᴡʜᴏsᴇ ᴍᴇᴍᴏʀʏ ᴀʀᴇ ʏᴏᴜ ʟᴏsᴛ ᴍʏ ʟᴏᴠᴇ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛs ʏᴏᴜʀ ᴘʀᴏғᴇssɪᴏɴ...ᰔᩚ**",
-           " **※ ᴡʜᴇʀᴇ ᴅɪᴅ ʏᴏᴜ ʟɪᴠᴇ...ᰔᩚ**",
-           " **※ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ, ʙᴀʙʏ...ᰔᩚ**",
-           " **※ ɢᴏᴏᴅ ɴɪɢʜᴛ, ɪᴛ's ᴠᴇʀʏ ʟᴀᴛᴇ...ᰔᩚ**",
-           " **※ ɪ ғᴇᴇʟ ᴠᴇʀʏ sᴀᴅ ᴛᴏᴅᴀʏ...ᰔᩚ**",
-           " **※ ᴛᴀʟᴋ ᴛᴏ ᴍᴇ ᴛᴏᴏ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛ's ғᴏʀ ᴅɪɴɴᴇʀ ᴛᴏᴅᴀʏ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛ's ɢᴏɪɴɢ ᴏɴ...ᰔᩚ**",
-           " **※ ᴡʜʏ ᴅᴏɴ'ᴛ ʏᴏᴜ ᴍᴇssᴀɢᴇ...ᰔᩚ**",
-           " **※ ɪ ᴀᴍ ɪɴɴᴏᴄᴇɴᴛ...ᰔᩚ**",
-           " **※ ɪᴛ ᴡᴀs ғᴜɴ ʏᴇsᴛᴇʀᴅᴀʏ, ᴡᴀsɴ'ᴛ ɪᴛ...ᰔᩚ**",
-           " **※ ᴡʜᴇʀᴇ ᴡᴇʀᴇ ʏᴏᴜ ʙᴜsʏ ʏᴇsᴛᴇʀᴅᴀʏ...ᰔᩚ**",
-           " **※ ʏᴏᴜ ʀᴇᴍᴀɪɴ sᴏ ᴄᴀʟᴍ ғʀɪᴇɴᴅ...ᰔᩚ**",
-           " **※ ᴅᴏ ʏᴏᴜ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ sɪɴɢ, sɪɴɢ...ᰔᩚ**",
-           " **※ ᴡɪʟʟ ʏᴏᴜ ᴄᴏᴍᴇ ғᴏʀ ᴀ ᴡᴀʟᴋ ᴡɪᴛʜ ᴍᴇ...ᰔᩚ**",
-           " **※ ᴀʟᴡᴀʏs ʙᴇ ʜᴀᴘᴘʏ ғʀɪᴇɴᴅ...ᰔᩚ**",
-           " **※ ᴄᴀɴ ᴡᴇ ʙᴇ ғʀɪᴇɴᴅs...ᰔᩚ**",
-           " **※ ᴀʀᴇ ʏᴏᴜ ᴍᴀʀʀɪᴇᴅ...ᰔᩚ**",
-           " **※ ᴡʜᴇʀᴇ ʜᴀᴠᴇ ʏᴏᴜ ʙᴇᴇɴ ʙᴜsʏ ғᴏʀ sᴏ ᴍᴀɴʏ ᴅᴀʏs...ᰔᩚ**",
-           " **※ ʟɪɴᴋ ɪs ɪɴ ʙɪᴏ, ᴛᴏ ᴊᴏɪɴ ɴᴏᴡ...ᰔᩚ**",
-           " **※ ʜᴀᴅ ғᴜɴ...ᰔᩚ**",
-           " **※ ᴅᴏ ʏᴏᴜ ᴋɴᴏᴡ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ɢʀᴏᴜᴘ...ᰔᩚ**",
-           " **※ ᴅᴏ ʏᴏᴜ ᴇᴠᴇʀ ʀᴇᴍᴇᴍʙᴇʀ ᴍᴇ...ᰔᩚ**",
-           " **※ ʟᴇᴛ's ᴘᴀʀᴛʏ...ᰔᩚ**",
-           " **※ ʜᴏᴡ ᴄᴏᴍᴇ ᴛᴏᴅᴀʏ...ᰔᩚ**",
-           " **※ ʟɪsᴛᴇɴ ᴍᴇ...ᰔᩚ**",
-           " **※ ʜᴏᴡ ᴡᴀs ʏᴏᴜʀ ᴅᴀʏ...ᰔᩚ**",
-           " **※ ᴅɪᴅ ʏᴏᴜ sᴇᴇ...ᰔᩚ**",
-           " **※ ᴀʀᴇ ʏᴏᴜ ᴛʜᴇ ᴀᴅᴍɪɴ ʜᴇʀᴇ...ᰔᩚ**",
-           " **※ ᴀʀᴇ ʏᴏᴜ ɪɴ ʀᴇʟᴀᴛɪᴏɴsʜɪᴘ...ᰔᩚ**",
-           " **※ ᴀɴᴅ ʜᴏᴡ ɪs ᴛʜᴇ ᴘʀɪsᴏɴᴇʀ...ᰔᩚ**",
-           " **※ sᴀᴡ ʏᴏᴜ ʏᴇsᴛᴇʀᴅᴀʏ...ᰔᩚ**",
-           " **※ ᴡʜᴇʀᴇ ᴀʀᴇ ʏᴏᴜ ғʀᴏᴍ...ᰔᩚ**",
-           " **※ ᴀʀᴇ ʏᴏᴜ ᴏɴʟɪɴᴇ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴇᴀᴛ...ᰔᩚ**",
-           " **※ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ɪ ᴡɪʟʟ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴀɴᴅ ᴛᴀɢ ᴇᴠᴇʀʏᴏɴᴇ...ᰔᩚ**",
-           " **※ ᴡɪʟʟ ʏᴏᴜ ᴘʟᴀʏ ᴛʀᴜᴛʜ ᴀɴᴅ ᴅᴀʀᴇ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛs ʜᴀᴘᴘᴇɴᴇᴅ ᴛᴏ ʏᴏᴜ...ᰔᩚ**",
-           " **※ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴇᴀᴛ ᴄʜᴏᴄᴏʟᴀᴛᴇ...ᰔᩚ**",
-           " **※ ʜᴇʟʟᴏ ʙᴀʙʏ...ᰔᩚ**",
-           " **※ ᴅᴏ ᴄʜᴀᴛᴛɪɴɢ ᴡɪᴛʜ ᴍᴇ...ᰔᩚ**",
-           " **※ ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ sᴀʏ...ᰔᩚ**",
-           " **※ ɢɪᴠᴇ ᴍᴇ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ɴᴜᴍʙᴇʀ ᴘʟᴇᴀsᴇ...ᰔᩚ**"
+TAGMES = [ " **Hey inga va veh nee** ",
+           " **VE-NN-A thalaiya yena da pandra** ",
+           " **Nalavaneee saptiya yenna pandra** ",
+           " **deiii nee lam yen irruka poidu appdey heh😋** ",
+           " **Nanae kolanthai da nambumga da** ",
+           " **moodhugula knife yedhutu yara kuthulam nu partha yenna da nee vanthu nikuraa🙃** ",
+           " **Ana solliten ithulam nalathuku illa parthukaa ! avalothan han🤨** ",
+           " **Oru flow la poiturukum bothu yevan da athu nadula comedy pannikituu __ odddu** ",
+           " **Ama onu vanganum heh yenna vangalam solluu🥲** ",
+           " **dei murugesha antha AK47 gun ha konjam kooda bore adikuthu😋** ",
+           " **yenna da suda matikuthi ! manichidu talaivarey bullet podala** ",
+           " **athu yeppadey da yunna sudanum nu kekum bothu mattum bullet kanum🙄🤔** ",
+           " **yunnaku yenna mooku neelama irrukam 🤔! pakathu theru la poster la irrunthuchhiii🏃🏃** ",
+           " **Ana yunnaku vai irruke yennaku mela irruku 🙄🙄** ",
+           " **sari yedhachum nalla song sollu kepom🫶** ",
+           " **paatu poda sonna yena yen da podura ! venna thalaiya** ",
+           " **yenna game thala aduva nee😛! oru match polama** ",
+           " **Ama yunna pathi onu sonnangley ath uumnai ha🤔** ",
+           " **sari yellame vithudu, nan oru 3 kelvi kekuren soluriya nu pakalam** ",
+           " **yara nee neelam oru aley illaa venna thalaiya🤗** ",
+           " **konjam kooda navura vidamatikuran heh yenna da venum yunnaku** ",
+           " **Yevalo vati da sollurathu yunnaku mandai la brain heh illa da yunnaku venna thalaiya** ",
+           " **Ana sathiyama sollala nee lam thiruntha mata🥺🥺** ",
+           " **ama nan paitiyakaran na nee yaruu😶** ",
+           " **yunnaku vekam lam vratha da sena panni marri nikuraa🤔** ",
+           " **appadey ha ithu vera theriyaama pocha😜** ",
+           " **amaa yenna alaiyee kanum sethutiya** ",
+           " **nalla thingura yenna vitutu nalla irrpa** ",
+           " **sari satu butu nu sollu yenna venum sapuda apram kasu illanu nu soliduven** ",
+           " **Nee nalavana illna ketavanuku mela nalavn ha🙊** ",
+           " **ama nee ipo yenna pandra yenna marri vetiya thane irrukaa apram yenga pore😺** ",
+           " **sari sari pesunathu pothum poi toongu🥲** ",
+           " **yepayum happy ha samthosama irru apo than yunna pakuravanga irruntha ivana marri irrukanum nu ninachi santhosama irrupanga😅** ",
+           " **illana irrukura vanagalaiyum auchi irruka vidu da venna ythalaiya🙊🙊** ",
+           " **Sooruu inga illaiyam pakathu veedu layum illaiyam agamothathuku sorru ilaiyam🙈🙈** ",
+           " **porathum pore irru kuli kulla thali viduren🕳** ",
+           " **sari apo nan kilamburen neeyum pesitu nalla urutitu poi toongu, thaniya da🙊** ",
+           " **Nan nee avan avar ival iva yellarum ... onum illa..?👀** ",
+           " **yelai anga yenna da pandra inga va game adalam** ",
+           " **sari bore adicha sollu game adalam** ",
+           " **inga oruthan irrupan nalla parru yunnakula irrukpan ana irrukamatan avan yar??😻** ",
+           " **ama nee yaru sollu ?🙃** ",
+           " **Ice Mittai Vangitariya ?🙊** ",
+           " **oru game adalam who is up ?🙃** ",
            ]
 
 VC_TAG = [" **⚘ আমাকে ভুলে যাও...💥**",
@@ -175,10 +168,10 @@ async def mentionall(client, message):
         ):
             is_admin = True
     if not is_admin:
-        return await message.reply("๏ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴛᴀɢ ᴍᴇᴍʙᴇʀs. ")
+        return await message.reply("๏ithu thaan thavarana seyal, Niruvagi kitta kelunga (admins).... ")
 
     if message.reply_to_message and message.text:
-        return await message.reply("/entag ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ᴛʏᴘᴇ ʟɪᴋᴇ ᴛʜɪs / ʀᴇᴘʟʏ ᴀɴʏ ᴍᴇssᴀɢᴇ ɴᴇxᴛ ᴛɪᴍᴇ ʙᴏᴛ ᴛᴀɢɢɪɴɢ...")
+        return await message.reply("Msg ah tag pannaatha. ,/entag  nu thaniya podu ve-nn-a...")
     elif message.text:
         mode = "text_on_cmd"
         msg = message.text
@@ -186,9 +179,9 @@ async def mentionall(client, message):
         mode = "text_on_reply"
         msg = message.reply_to_message
         if not msg:
-            return await message.reply("/entag ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ᴛʏᴘᴇ ʟɪᴋᴇ ᴛʜɪs / ʀᴇᴘʟʏ ᴀɴʏ ᴍᴇssᴀɢᴇ ɴᴇxᴛ ᴛɪᴍᴇ ғᴏᴛ ᴛᴀɢɢɪɴɢ...")
+            return await message.reply("Msg ah tag pannaatha. ,//entag  nu thaniya podu ve-nn-a...")
     else:
-        return await message.reply("/entag ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ᴛʏᴘᴇ ʟɪᴋᴇ ᴛʜɪs / ʀᴇᴘʟʏ ᴀɴʏ ᴍᴇssᴀɢᴇ ɴᴇxᴛ ᴛɪᴍᴇ ʙᴏᴛ ᴛᴀɢɢɪɴɢ...")
+        return await message.reply("Msg ah tag pannaatha. ,//entag  nu thaniya podu ve-nn-a...")
     if chat_id in spam_chats:
         return await message.reply("๏ ᴘʟᴇᴀsᴇ ᴀᴛ ғɪʀsᴛ sᴛᴏᴘ ʀᴜɴɴɪɴɢ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss...")
     spam_chats.append(chat_id)
@@ -235,7 +228,7 @@ async def mention_allvc(client, message):
         ):
             is_admin = True
     if not is_admin:
-        return await message.reply("๏ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴛᴀɢ ᴍᴇᴍʙᴇʀs. ")
+        return await message.reply("๏ ithu thaan thavarana seyal, Niruvagi kitta kelunga (admins)... ")
     if chat_id in spam_chats:
         return await message.reply("๏ ᴘʟᴇᴀsᴇ ᴀᴛ ғɪʀsᴛ sᴛᴏᴘ ʀᴜɴɴɪɴɢ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss...")
     spam_chats.append(chat_id)
@@ -265,7 +258,7 @@ async def mention_allvc(client, message):
 @app.on_message(filters.command(["cancel", "enstop", "bnstop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
-        return await message.reply("๏ ᴄᴜʀʀᴇɴᴛʟʏ ɪ'ᴍ ɴᴏᴛ ᴛᴀɢɢɪɴɢ ʙᴀʙʏ.")
+        return await message.reply("๏ innum arambikave illa pangu.")
     is_admin = False
     try:
         participant = await client.get_chat_member(message.chat.id, message.from_user.id)
@@ -278,11 +271,11 @@ async def cancel_spam(client, message):
         ):
             is_admin = True
     if not is_admin:
-        return await message.reply("๏ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴛᴀɢ ᴍᴇᴍʙᴇʀs.")
+        return await message.reply("๏ithu thaan thavarana seyal, Niruvagi kitta kelunga (admins).")
     else:
         try:
             spam_chats.remove(message.chat.id)
         except:
             pass
-        return await message.reply("๏ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss sᴛᴏᴘᴘᴇᴅ ๏")
+        return await message.reply(f"**Nee than niruthunatha**\n{message.from_user.mention}\n**Irrunga varen .. 🛵**")
           
