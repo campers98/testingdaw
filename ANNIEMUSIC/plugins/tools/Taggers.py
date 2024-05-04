@@ -105,9 +105,6 @@ async def tagu_handler(client, message: Message):
     usrnum = 0
     usrtxt = ""
 
-        if usr.user.is_bot:
-            continue
-
         usrnum += 1
         usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id})"
         #usrtxt += f"{usr.user.mention}"
