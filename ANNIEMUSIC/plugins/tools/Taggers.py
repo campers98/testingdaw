@@ -105,9 +105,6 @@ async def tagu_handler(client, message: Message):
     usrnum = 0
     usrtxt = ""
 
-        if not chat_id in spam_chats:
-            break
-
         if usr.user.is_bot:
             continue
 
