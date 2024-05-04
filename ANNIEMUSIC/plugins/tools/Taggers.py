@@ -10,7 +10,7 @@ from pyrogram.types import Message, CallbackQuery
 from bs4 import BeautifulSoup
 from aiogram import types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ANNIEMUSIC.plugins.tools.Blast import open_me_markup, surprise_markup, click_me_markup, close_me_markup
+from ANNIEMUSIC.plugins.tools.Blast import open_me_markup, surprise_markup, click_me_markup, close_me_markup, blast_markup
 from typing import Union
 
 spam_chats = []
