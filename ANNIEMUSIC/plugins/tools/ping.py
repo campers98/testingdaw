@@ -38,26 +38,26 @@ async def ping_com(client, message: Message, _):
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**🙀𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 𝘀𝗲𝗿𝘃𝗲𝗿..**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ sᴛᴀʀᴛᴇᴅ ᴄᴏʟʟᴇᴄᴛɪɴɢ ᴅᴀᴛᴀ.**")
+    await response.edit_caption("**🤐𝗛𝘆𝗽𝗲𝗿 𝗶𝘀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗶𝗻𝗴 𝗧𝗵𝗲 𝗗𝗮𝘁𝗮**")
     await asyncio.sleep(1)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ɪs ᴀɴᴀʟʏsɪɴɢ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs..**")
+    await response.edit_caption("**🤫𝗛𝘆𝗽𝗲𝗿 𝗶𝘀 𝗳𝘂𝗹𝗹 𝗼𝗳 𝗯𝗼𝘆𝘀 - 𝗦𝗶𝗴𝗵𝘀𝗲𝗲𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗶𝗿𝗹𝘀..**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴀɴɴɪᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛʜᴇ ᴊᴀʀᴠɪs ᴄᴏʀᴇ...**")
+    await response.edit_caption("**☠️𝗛𝘆𝗽𝗲𝗿 𝗶𝘀 𝗨𝗽𝗴𝗿𝗮𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲...**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**🥀ᴊᴀʀᴠɪs ᴜᴘᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ....**")
+    await response.edit_caption("**😍𝗛𝘆𝗽𝗲𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗶𝘀 𝗰𝗿𝗲𝗮𝘁𝗲𝗱....**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**ᴀɴɴɪᴇ ʜᴀs sᴜᴄᴄᴇssғᴜʟʟʏ ᴀɴᴀʟʏsᴇᴅ sʏsᴛᴇᴍ ᴅᴀᴛᴀ !**")
+    await response.edit_caption("**𝗧𝗵𝗲 𝗧𝗲𝗮𝗺 𝗜𝘀 𝗪𝗼𝗿𝗸𝗶𝗻𝗴 𝗢𝗻 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝘀 🤧 !**")
     await asyncio.sleep(2)
-    await response.edit_caption("**ᴊᴀʀᴠɪs 📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    await response.edit_caption("**𝘁𝗵𝗲 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗶𝘀 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗙𝗶𝗹𝗲𝘀..𝗕𝗲 𝗣𝗮𝘁𝗶𝗲𝗻𝘁 𝟯.. 𝟮.. 𝟭...**")
     start = datetime.now()
     pytgping = await JARVIS.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**🏓ᴀɴɴɪᴇ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨\nㅤ  🎸👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴛᴏᴇ🫣💞**"
+    captions = "**👹 𝐇ʏᴘᴇʀ  𝐍ᴇᴛᴡᴏʀᴋ🕷\nㅤ  🦜👀ᴄᴀᴛᴄʜ..ᴛʜᴇ..sᴛᴀᴛs..ʙʏ..ᴛʜᴇ..ᴛᴏᴇ🫣💞**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -70,10 +70,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/BWANDARLOK",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Team_Hypers_Networks",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/CDX_WORLD",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/TeamHyperBOts",
             )
         ],
         [
