@@ -4,13 +4,13 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+▄︻デ( ฬєɭς๏๓є เภ Շ๏ Շђє ฬ๏гɭ๔ - [ 𝐓ᴇᴀᴍ 𝐇ʏᴘᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ ] )═══━一̵̡Ӝ̵̨Ʒ
  
- ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ ➲ ᴡᴇ ᴀʀᴇ ᴛʜᴇ 𝐇YPEƦꜱ - ᴡᴇʟʟ ᴋɴᴏᴡɴ ɢᴜʏꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ
  
- ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
+ ➲ ωє єηgαgє тнє яєρσ є∂ιтιηg ωιтн αη υηιqυє-ηєѕѕ ✰
  
- ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
+ ➲ 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙤𝙣 𝙃𝙚𝙧𝙤𝙠𝙪 𝙖𝙣𝙙 𝙑𝙋𝙎. 𝙈𝙤𝙧𝙚 𝙋𝙡𝙖𝙣𝙨 𝙔𝙚𝙩 𝙩𝙤 𝙘𝙤𝙢𝙚 ✰
  
  ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
  
@@ -31,8 +31,8 @@ async def start(_, msg):
             ],
      
             [
-             InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/BWANDARLOK"),
-             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/jarvis2O"),
+             InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/Team_Hypers_Networks"),
+             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Team_Hypers_Networks"),
              ],
      
              [
@@ -40,18 +40,18 @@ async def start(_, msg):
              ],
      
              [
-             InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://github.com/doraemon890/JARVIS-X-SESSION"),            
-             InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/doraemon890/ANNIE-X-MUSIC"),
+             InlineKeyboardButton("❝𝐌𝐮𝐬𝐢𝐜 -𝐂𝐮𝐭𝐞 𝐆𝐢𝐫𝐥❞", url=f"https://t.me/tele_kathali"),            
+             InlineKeyboardButton("︎❝𝐌𝐮𝐬𝐢𝐜 -𝐎𝐧𝐞 𝐋𝐨𝐯𝐞❞", url=f"https://t.me/Maya_Music_Bot"),
              ],
      
              [
-             InlineKeyboardButton("𝐄𝐕𝐈𝐋", url=f"https://github.com/doraemon890/JARVIS-X-EVIL"),
-             InlineKeyboardButton("𝐁𝐀𝐍 𝐀𝐋𝐋", url=f"https://github.com/doraemon890/jarvis-ban-all"),
+             InlineKeyboardButton("❝𝐂𝐡𝐚𝐭_𝐁𝐨𝐭 -𝐇𝐨𝐧𝐞𝐲❞", url=f"https://t.me/HoneychatzBot"),
+             InlineKeyboardButton("❝𝐌𝐮𝐬𝐢𝐜 -𝐑𝐚𝐚𝐠𝐚𝐯𝐚𝐯𝐢𝐛𝐞𝐬❞", url=f"https://t.me/raagaaxvibesbot"),
              ],
      
              [
-             InlineKeyboardButton("𝐀𝐋𝐋 𝐁𝐎𝐓𝐒", url=f"https://t.me/CDX_WORLD"),
-             InlineKeyboardButton("𝐁𝐖𝐀𝐍𝐃𝐀𝐑𝐋𝐎𝐊", url=f"https://t.me/BWANDARLOK"),
+             InlineKeyboardButton("𝐀𝐋𝐋 𝐁𝐎𝐓𝐒", url=f"https://t.me/TeamHyperNetworks"),
+             InlineKeyboardButton("❝𝐌𝐮𝐬𝐢𝐜 -𝐒𝐡𝐢𝐧𝐨𝐛𝐢❞", url=f"https://t.me/ShinobuMusicBot"),
              ],
      
               [
@@ -60,7 +60,7 @@ async def start(_, msg):
               ],
      
               [
-              InlineKeyboardButton("𝐏𝐘𝐑𝐎𝐍𝐄", url=f"https://github.com/doraemon890/JARVIS-X-PYRON"),
+              InlineKeyboardButton("❝𝐌𝐨𝐯𝐢𝐞𝐬 -𝐒𝐕𝐃|𝐇𝐲𝐩𝐞𝐫❞", url=f"https://t.me/Moviesvdnest_botN"),
               InlineKeyboardButton("𝗔𝗟 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧", url=f"https://github.com/doraemon890/JARVIS-X-SPAM"),
               ]
        ]
@@ -68,7 +68,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+        photo="https://telegra.ph/file/75aae54314783b81f553c.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
