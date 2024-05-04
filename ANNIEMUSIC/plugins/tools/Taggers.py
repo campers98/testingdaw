@@ -105,6 +105,13 @@ async def tagu_handler(client, message: Message):
     usrnum = 0
     usrtxt = ""
 
+         async for usr in client.iter_chat_members(chat_id):
+        if not chat_id in spam_chats:
+            break
+
+        if usr.user.is_bot:
+            continue
+            
         usrnum += 1
         usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id})"
         #usrtxt += f"{usr.user.mention}"
