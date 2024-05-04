@@ -12,7 +12,7 @@ def goodnight_command_handler(_, message):
     if send_video:
         video_id = get_random_video()
         app.send_video(message.chat.id, video_id)
-        message.reply_text(f"**Good Morning, {sender}! Wakeup fast. 🥰**")
+        message.reply_text(f"**❝𝐊𝐚𝐚𝐥𝐚𝐢 𝐕𝐚𝐧𝐚𝐤𝐚𝐦❞, {sender}! 𝚃𝚘𝚘𝚗𝚐𝚞 𝙼𝚘𝚘𝚗𝚓𝚒. 🥹**")
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
