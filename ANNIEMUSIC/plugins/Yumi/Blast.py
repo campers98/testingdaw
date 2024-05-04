@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from InsaneMusic import app
+from ANNIEMUSIC import app
 
 def blast_markup():
     upl = InlineKeyboardMarkup(
