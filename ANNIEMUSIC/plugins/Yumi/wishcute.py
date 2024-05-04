@@ -9,7 +9,7 @@ SUPPORT_CHAT = "BWANDARLOK"
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
     if len(m.command) < 2:
-        await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥀!")
+        await m.reply("Think of a Wish🥀!")
         return 
 
     api = requests.get("https://nekos.best/api/v2/happy").json()
@@ -43,7 +43,7 @@ async def cute(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    CUTE = f"🍑 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ🥀"
+    CUTE = f"🍑 {mention} {mm}% nalavanee🥀"
 
     await app.send_document(
         chat_id=message.chat.id,
