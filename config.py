@@ -7,18 +7,18 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID", 24086498))
-API_HASH = getenv("API_HASH", "0c459b186767a4634604c740c001c0c3")
+API_ID = int(getenv("API_ID", 27957041))
+API_HASH = getenv("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6041305578:AAHyR2WXt_j3bC5OlAfXvZo9tqGUOIxckVM")
+BOT_TOKEN = getenv("6270407253:AAF6nlAPgIDvgBtrqNZugCbRE__6uIQypMY")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Songjoker1")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Soupboy_single")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Testingmulti_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SVDsinger_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Testingmulti")
+BOT_NAME = getenv("BOT_NAME" , "SVDMusicBot")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "songchoker")
+ASSUSERNAME = getenv("ASSUSERNAME" , "SVDassistant")
 EVALOP = list(map(int, getenv("EVALOP", "5259884546").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
@@ -26,7 +26,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwor
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001975251757))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001743709729))
 
 # ------------------------------------------------
 GPT_API = getenv("sk-proj-mywH9SfPWQuT2QhGLhKkT3BlbkFJUafYpIlrEpoYbz9rcy8L")
@@ -80,7 +80,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", "BQFvh-IALyBXoaVkxZcjJpHKRL9PhEhsRlARMD8w_fk-IyETUyRVdyKsqEflO0OojWJbjPEhG4lcWvTvgpHgsl-h81w8Fn14bSSlW6Yz2y-K1rh3BENIgOOGwCFeAqFcspnhey63VcmGup_Vk1KUvqwREYMaUK3D4f8lE-9ooYCCVnQ_6OI2YkDzoJjzr6sM299LTtaaPsNskSQU77kK3R5tkA29vGo81R4E-Ao2O-rwpKtn2AKzAxpaOrvXiWU0z_JwcTskKnzvRf4tnp6M20HuJDn-n4Hbp5zXVqntzVw_T1jI8O9RA3zKAwtkeGdmFA2gbqnoq8xk4ea5qWl3eTEfUG-nDAAAAAE5g3gCAA")
+STRING1 = getenv("STRING_SESSION", "BQGqlzEAUAGdK4t1MkzmeG7ivE3ER9AutwZP9YYnXsEdkWnZR9aINO1o7USh8_7vYkLbX51mcAX4Ivrmi56p529gsFojB8YhLn5CypH36b1hLLuIV51oNpp3Rj28lhQ_4f0nFlz9IYH9cfjXtFxS7ec1b918Vjf6EkMNTlEwXg3XKwBkOcVjuJyZM_Rkfoc2sCTzaYa4yMbCWhApz8h4RX6oEFrztnXLVLEgEsZRVeMZbg6Sx6clJhUr_CH9_ITRG3uUUYjbwgbi0HWavPrjgBbDornEGzK2eTMYjFJ_ICqO74ERvxzlIOcdmPexKXTSlOw2X9PtZjllXI7BqiRy-6Cdi_4EewAAAAFXTCi3AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -133,10 +133,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/227d133eaac85b0e538d1.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c7fc58423bbdac8159654.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/86f81220c410743f1e1b1.jp"
+    "PING_IMG_URL", "https://telegra.ph/file/af9ce1fe9aeaa0a7fbdda.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/049da2a0678db379dc6ca.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/9349a004446e5e94abd6b.jpg"
