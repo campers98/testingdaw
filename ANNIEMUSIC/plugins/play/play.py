@@ -30,7 +30,6 @@ from ANNIEMUSIC.utils.database import (
 )
 from ANNIEMUSIC.utils.logger import play_logs
 from ANNIEMUSIC.utils.stream.stream import stream
-from config import BANNED_USERS, lyrical, AMBOT
 
 
 @app.on_message(
