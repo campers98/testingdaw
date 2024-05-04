@@ -1,7 +1,7 @@
 # /tagu - /delete
 import datetime
 import pytz
-from InsaneMusic import app
+from ANNIEMUSIC import app
 import random
 import asyncio
 import requests
