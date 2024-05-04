@@ -59,7 +59,7 @@ async def bugs(_, msg: Message):
             )
             return
         else:
-            await msg.reply_text("ᴄʜᴜᴍᴛɪʏᴀ reporter!")
+            await msg.reply_text("נυмвαℓιηgα ριℓαριι!")
     elif user_id != owner_id:
         if bugs:
             await msg.reply_text(
