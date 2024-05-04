@@ -497,7 +497,6 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("JARVISmousAdmin") & ~BANNED_USERS)
 async def JARVISmous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
@@ -508,7 +507,6 @@ async def JARVISmous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("JARVISPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
@@ -595,7 +593,6 @@ async def play_playlists_command(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("slider") & ~BANNED_USERS)
 @languageCB
 async def slider_queries(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
