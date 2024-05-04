@@ -6,7 +6,6 @@ from ANNIEMUSIC.utils.decorators.language import languageCB
 from ANNIEMUSIC.utils.stream.stream import stream
 
 
-@app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
 @languageCB
 async def play_live_stream(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
