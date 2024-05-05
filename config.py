@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID", 27957041))
-API_HASH = getenv("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
+API_ID = int(getenv("API_ID", 24853835))
+API_HASH = getenv("API_HASH", "bdd57a7f24d7d1f59b82f937289e4abb")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("6270407253:AAFvOsgT331Bk2_jTJWuH8noCmjBYIAr4pU")
 # Add Owner Username without @ 
@@ -18,7 +18,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "SVDsinger_bot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "SVDMusicBot")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "SVDgamers")
+ASSUSERNAME = getenv("ASSUSERNAME" , "SVDgamerss")
 EVALOP = list(map(int, getenv("EVALOP", "5259884546").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
@@ -80,7 +80,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", "BQGqlzEASYY9o1paU_A_Hh-T8NajVIhr2vE0v026EXolINGjMnT7_loxSs7BB8uYkyechQQbgYYPJqvAz7zcx7MKoR-ulk5fSVPggRQKTCw-yo16iy8493u1C6UwNc__D4A8G2YbzgLIbNsP7bzCGrk44FR0qZP9DNfwv3NAKl3AlWITnVRHCPL5zTkLEuzrbw086DAxuL7sXnsEkJKAlVV96ySh_7kSiC8cB37SOZnfq08qfSAHPXUJn-VduVCUl1DPsxrpTtDRR85CZ5fSPoVpxH5S9io6f_Cqm3zL5TMt2jLgMeDT_maNvQQdCHt4M_A-TCJDWF3EP9PNjwaLhpJMY7EX9QAAAAFXTCi3AA")
+STRING1 = getenv("STRING_SESSION", "BAFMwWAAp_0VjJPXLzwRJK7s6cWF_0gwpj63itxjO9KxWmtwHxgfZ8U26lmoUJ6HSBoiKiX3MFJ6A8S9OxFAjqRgI7pSTQsJIOHcTi-xppbCFHa4lgKTMfFRtggYPa5Ezshlhk8APfOUim99iUFLQ0ZMz6vzcBH-yC3Q1hnDrKvBIV8PCci8qe0-n04LBUtctNxdpDrbg8JZODyuv6jTfbeF9Kss8vBJby-kVNmiu4eiFJsXnH2Nq39ADHEdh2w14lhb8EHIQa-AccNxA_F1Utsy0QFFRdrWSe7EkOhf7mN90x2MyPUFAQDXgJcEIOBWYvLLsNYDJn2nyFivQPqeVH_qRZWaoAAAAAGZ3Dn6AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
