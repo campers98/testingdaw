@@ -23,7 +23,7 @@ EVALOP = list(map(int, getenv("EVALOP", "5259884546").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1001743709729))
@@ -80,7 +80,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", "BQGqlzEAcWkMWnh7oB4Uo1Cvx98TsCY411pXiFgE_xJnSBH3O31ictMZv0Pzjq02vLOuFAFMhH4nED7KsEmHFV5YQlGXqWjYfDDQPClybuRGd7E2Dz7TmE2XtM6tst8hsMjWLTu9p5O-P_33Hp6FUcITz-Ws8PghBGDQXa9nDrN6IpqYpLuee7sXqnupMJLparMbQq-sYdwILwJIHppKFUY9mppj0MjuYRTQZIIVpCstTf_dmReIAdIgRjVs6wf50lpkYVQ_R6vBxgGc5hxHVcTEz-oJ0tp9DvGRXUAXBCocZooxHtCLGtzvZqFyBLxQXRvIdwutKlBq-7fJu3QwJoo9hM_s-gAAAAFXTCi3AA")
+STRING1 = getenv("STRING_SESSION", "BQGqlzEASYY9o1paU_A_Hh-T8NajVIhr2vE0v026EXolINGjMnT7_loxSs7BB8uYkyechQQbgYYPJqvAz7zcx7MKoR-ulk5fSVPggRQKTCw-yo16iy8493u1C6UwNc__D4A8G2YbzgLIbNsP7bzCGrk44FR0qZP9DNfwv3NAKl3AlWITnVRHCPL5zTkLEuzrbw086DAxuL7sXnsEkJKAlVV96ySh_7kSiC8cB37SOZnfq08qfSAHPXUJn-VduVCUl1DPsxrpTtDRR85CZ5fSPoVpxH5S9io6f_Cqm3zL5TMt2jLgMeDT_maNvQQdCHt4M_A-TCJDWF3EP9PNjwaLhpJMY7EX9QAAAAFXTCi3AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
