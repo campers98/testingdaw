@@ -5,7 +5,7 @@ from ANNIEMUSIC import app
 
 
 ###### GOOOD MORNING 
-@app.on_message(filters.command(["gm","gooduu morning","Gooddu Morninguu"], prefixes=["/","g","G", "" ]))
+@app.on_message(filters.command(["gm","ood morning","oodu Morningu","ood morning"], prefixes=["/","g","G", "" ]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_video = random.choice([True, False])
@@ -16,7 +16,7 @@ def goodnight_command_handler(_, message):
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**Goodu Morningu, {sender}! Wakeup fast.🫥 {emoji}**")
+        message.reply_text(f"**Goodu Morningu, {sender}! Nalla tookam ho.🫥 {emoji}**")
 
 
 def get_random_video():
