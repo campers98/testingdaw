@@ -6,18 +6,18 @@ from ANNIEMUSIC import app
 
 
 ######### GOOD NIGHT 
-@app.on_message(filters.command(["gn","n","oodnight","ood Night","ood night"], prefixes=["/","g","G"]))
+@app.on_message(filters.command(["gn","gn8","goodunightu"], prefixes=["/","g","G"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
     if send_sticker:
         sticker_id = get_random_sticker()
         app.send_sticker(message.chat.id, sticker_id)
-        message.reply_text(f"**𝙴𝚛𝚊𝚟𝚞 𝚄𝚛𝚊𝚔𝚊𝚖, {sender}!  𝚗𝚊𝚗 𝚃𝚘𝚘𝚗𝚐𝚊 𝙿𝚘𝚛𝚎𝚗. 🌙**")
+        message.reply_text(f"**𝙴𝚛𝚊𝚟𝚞 𝚄𝚛𝚊𝚔𝚊𝚖, {sender}!  yenna inga thaiya vitutu poiduviya nee 🤨. 🌙**")
     else:
         emoji = get_random_emoji()
         app.send_message(message.chat.id, emoji)
-        message.reply_text(f"**𝙴𝚛𝚊𝚟𝚞 𝚄𝚛𝚊𝚔𝚊𝚖...., {sender}!  𝚗𝚊𝚗 𝚃𝚘𝚘𝚗𝚐𝚊 𝙿𝚘𝚛𝚎𝚗. {emoji}**")
+        message.reply_text(f"**𝙴𝚛𝚊𝚟𝚞 𝚄𝚛𝚊𝚔𝚊𝚖...., {sender}! Athukula toonga poriyaa. {emoji}**")
 
 
 def get_random_sticker():
@@ -36,5 +36,9 @@ def get_random_emoji():
         "😴",
         "😪",
         "💤",
+        "🌙",
+        "🌃",
+        "🌠",
+        
     ]
     return random.choice(emojis)
