@@ -1,29 +1,29 @@
+import random
+
 from pyrogram import Client, filters
-import requests
 from ANNIEMUSIC import app
+
+# List of your GIF URLs
+KICK_GIF_URLS = [
+    "https://telegra.ph/file/d147ade81c7d9f9aaf7f7.mp4",
+    "https://telegra.ph/file/d310b1615f80c4238bd48.mp4",
+    "https://telegra.ph/file/0347fe9124af750c4e470.mp4",
+    # Add more URLs as needed
+]
 
 @app.on_message(filters.command("kick") & ~filters.forwarded & ~filters.via_bot)
 def slap_command(client, message):
     try:
-
         sender = message.from_user.mention(style='markdown')
 
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
 
-        
-        response = requests.get("https://telegra.ph/file/d310b1615f80c4238bd48.mp4")
-        response.raise_for_status()
+        msg = f"{sender} Vuttan parru oru vothai {target}! 😒"
 
-        gif_url = response.json().get("url")
+        # Select a random GIF URL from the list
+        random_gif_url = random.choice(KICK_GIF_URLS)
 
-        if gif_url:
-            msg = f"{sender} Vuttan parru oru oothai {target}! 😒"
-            message.reply_animation(animation=gif_url, caption=msg)
-        else:
-            message.reply_text("Couldn't retrieve the animation. Please try again.")
+        message.reply_animation(animation=random_gif_url, caption=msg)
         
-    except requests.exceptions.RequestException as e:
-        message.reply_text(f"An error occurred while making the request: {e}")
     except Exception as e:
-        
         message.reply_text(f"An unexpected error occurred: {str(e)}")
