@@ -3,17 +3,14 @@ import random
 from pyrogram import Client, filters
 from ANNIEMUSIC import app
 
-# Dictionary of sticker packs
-STICKER_PACKS = {
-    "vadaki": [
-        "CAACAgUAAxkBAAEMESlmOnc2p_-Rho2BNpdADaQKxW8SlAAC4woAAvhuAVbL3lwuysuYijUE"
-        # Add more sticker URLs as needed
-    ],
-    # You can define more sticker packs in a similar manner
-}
+# List of your GIF URLs
+VADAKI_GIF_URLS = [
+    "https://telegra.ph/file/a1212c5d594fb2365d1aa.jpg"
+    # Add more URLs as needed
+]
 
 @app.on_message(filters.command("vadaki") & ~filters.forwarded & ~filters.via_bot)
-def vadaki_command(client, message):
+def mogara_command(client, message):
     try:
         sender = message.from_user.mention(style='markdown')
 
@@ -21,10 +18,10 @@ def vadaki_command(client, message):
 
         msg = f"{sender} Sunil bhaaaaai  {target}! 🙊"
 
-        # Select a random sticker URL from the specified sticker pack
-        random_sticker_url = random.choice(STICKER_PACKS["vadaki"])
+        # Select a random GIF URL from the list
+        random_gif_url = random.choice(VADAKI_GIF_URLS)
 
-        message.reply_sticker(sticker=random_sticker_url, quote=True, caption=msg)
+        message.reply_animation(animation=random_gif_url, caption=msg)
         
     except Exception as e:
         message.reply_text(f"An unexpected error occurred: {str(e)}")
