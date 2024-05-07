@@ -12,17 +12,17 @@ STICKER_PACKS = {
     # You can define more sticker packs in a similar manner
 }
 
-  @app.on_message(filters.command("vadaki") & ~filters.forwarded & ~filters.via_bot)
-  def vadaki_command(client, message):
+@app.on_message(filters.command("vadaki") & ~filters.forwarded & ~filters.via_bot)
+def vadaki_command(client, message):
     try:
-        sender = message.from.user.mention(style='markdown')
+        sender = message.from_user.mention(style='markdown')
 
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
 
         msg = f"{sender} Sunil bhaaaaai  {target}! 🙊"
 
         # Select a random sticker URL from the specified sticker pack
-          random_sticker_url = random.choice(STICKER_PACKS["vadaki"])
+        random_sticker_url = random.choice(STICKER_PACKS["vadaki"])
 
         message.reply_sticker(sticker=random_sticker_url, quote=True, caption=msg)
         
