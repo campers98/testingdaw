@@ -5,7 +5,7 @@ from ANNIEMUSIC import app
 
 # List of your GIF URLs
 VADAKI_GIF_URLS = [
-    "https://telegra.ph/file/a1212c5d594fb2365d1aa.jpg"
+    "https://telegra.ph/file/0d7985a09388745f67226.mp4"
     # Add more URLs as needed
 ]
 
