@@ -19,7 +19,7 @@ def mogara_command(client, message):
         msg = f"{sender} Jumbalikaa pilapi {target}! 🤣"
 
         # Select a random GIF URL from the list
-        random_gif_url = random.choice(KICK_GIF_URLS)
+        random_gif_url = random.choice(MOGARA_GIF_URLS)
 
         message.reply_animation(animation=random_gif_url, caption=msg)
         
