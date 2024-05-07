@@ -5,9 +5,7 @@ from ANNIEMUSIC import app
 
 # List of your GIF URLs
 KICK_GIF_URLS = [
-    "https://telegra.ph/file/d147ade81c7d9f9aaf7f7.mp4",
-    "https://telegra.ph/file/d310b1615f80c4238bd48.mp4",
-    "https://telegra.ph/file/0347fe9124af750c4e470.mp4",
+    "https://telegra.ph/file/d147ade81c7d9f9aaf7f7.mp4"
     # Add more URLs as needed
 ]
 
