@@ -13,7 +13,7 @@ STICKER_PACKS = {
 }
 
   @app.on_message(filters.command("vadaki") & ~filters.forwarded & ~filters.via_bot)
-def slap_command(client, message):
+  def vadaki_command(client, message):
     try:
         sender = message.from_user.mention(style='markdown')
 
