@@ -4,13 +4,13 @@ from pyrogram import Client, filters
 from ANNIEMUSIC import app
 
 # List of your GIF URLs
-KICK_GIF_URLS = [
+MOGARA_GIF_URLS = [
     "https://telegra.ph/file/ad6aaa917c47cffafeffc.mp4"
     # Add more URLs as needed
 ]
 
 @app.on_message(filters.command("mogara") & ~filters.forwarded & ~filters.via_bot)
-def slap_command(client, message):
+def mogara_command(client, message):
     try:
         sender = message.from_user.mention(style='markdown')
 
