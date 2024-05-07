@@ -5,7 +5,7 @@ from ANNIEMUSIC import app
 
 # List of your GIF URLs
 KICK_GIF_URLS = [
-    "https://telegra.ph/file/d147ade81c7d9f9aaf7f7.mp4"
+    "https://telegra.ph/file/ad6aaa917c47cffafeffc.mp4"
     # Add more URLs as needed
 ]
 
@@ -16,7 +16,7 @@ def slap_command(client, message):
 
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
 
-        msg = f"{sender} Vuttan parru oru vothai {target}! 😒"
+        msg = f"{sender} Jumbalikaa pilapi {target}! 🤣"
 
         # Select a random GIF URL from the list
         random_gif_url = random.choice(KICK_GIF_URLS)
