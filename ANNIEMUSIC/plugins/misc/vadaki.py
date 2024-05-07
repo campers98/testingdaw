@@ -15,7 +15,7 @@ STICKER_PACKS = {
   @app.on_message(filters.command("vadaki") & ~filters.forwarded & ~filters.via_bot)
   def vadaki_command(client, message):
     try:
-        sender = message.from_user.mention(style='markdown')
+        sender = message.from.user.mention(style='markdown')
 
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
 
