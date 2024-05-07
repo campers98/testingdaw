@@ -11,7 +11,7 @@ def slap_command(client, message):
         target = sender if not message.reply_to_message else message.reply_to_message.from_user.mention(style='markdown')
 
         
-        response = requests.get("https://api.waifu.pics/sfw/slap")
+        response = requests.get("https://telegra.ph/file/d310b1615f80c4238bd48.mp4")
         response.raise_for_status()
 
         gif_url = response.json().get("url")
