@@ -5,12 +5,12 @@ from ANNIEMUSIC import app
 from config import SUPPORT_CHAT
 
 BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"{SUPPORT_CHAT}")]]
-GAMER = "https://graph.org/file/745ba3ff07c1270958588.mp4"
-HANDSOME = "https://graph.org/file/eaa834a1cbfad29bd1fe4.mp4"
-COOL = "https://graph.org/file/58da22eb737af2f8963e6.mp4"
-URUTTU = "https://graph.org/file/ff258085cf31f5385db8a.mp4"
-KOLARU = "https://graph.org/file/850290f1f974c5421ce54.mp4"
-HATE = "https://i.gifer.com/8ZUg.gif"
+GAMER = "https://telegra.ph/file/bdc5c8e6e9445a5d5068e.mp4"
+HANDSOME = "https://telegra.ph/file/595799faee5acef0a00d2.mp4"
+COOL = "https://telegra.ph/file/8e3a43b6f4929876e610e.mp4"
+URUTTU = "https://telegra.ph/file/89088f3c128eec57720df.mp4"
+KOLARU = "https://telegra.ph/file/798bcc26b68c2013e6e2a.mp4"
+NO = "https://telegra.ph/file/26d3c7b5c3bbeb84f4382.mp4"
 ACCEPTED = "https://telegra.ph/file/ba50a01bc7f4f7f20c6c1.mp4"
 CUTIE = "https://graph.org/file/24375c6e54609c0e4621c.mp4"
 
@@ -149,7 +149,7 @@ async def lesbian(_, message):
 
 ########### BOOBS
 
-@app.on_message(filters.command("hate"))
+@app.on_message(filters.command("no"))
 async def boob(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
@@ -163,8 +163,8 @@ async def boob(_, message):
     BALL = f"  {mention}ꜱ  {mm} ! "
     await app.send_document (
         chat_id=message.chat.id,
-        document=BIGBALL,
-        caption=BALL,
+        document=NO,
+        caption=𝙽𝚎𝚎 𝚕𝚊𝚖 𝚢𝚎𝚗𝚗𝚊𝚔𝚞 𝚜𝚎𝚝 𝚊𝚐𝚊 𝚖𝚊𝚝𝚊 ,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
