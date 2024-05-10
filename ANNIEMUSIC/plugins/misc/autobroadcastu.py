@@ -20,7 +20,7 @@ MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏ
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("༆ 𝔸𝐝𝐝 𝕄𝐞 𝕁𝐚𝐧𝐧𝐡 ༆", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("༆ 𝔸𝐝𝐝 𝕄𝐞 LEYY ༆", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
