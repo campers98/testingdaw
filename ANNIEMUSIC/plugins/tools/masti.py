@@ -55,7 +55,7 @@ async def horny(_, message):
     await app.send_document(
         chat_id=message.chat.id,
         document=HANDSOME,
-        caption=ραккα ѕємαιуαιяяυкαηgαℓαє,
+        caption=ραккαѕємαιуαιяяυкαηgαℓαє,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
     )
