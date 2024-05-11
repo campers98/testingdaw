@@ -32,7 +32,7 @@ async def cutie(_, message):
     await app.send_document(
         chat_id=message.chat.id,
         document=CUTIE,
-        caption=уαяяυ ℓєуу ηєєє 😍,
+        caption=уαяяυℓєууηєєє😍,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
     )
@@ -55,7 +55,7 @@ async def horny(_, message):
     await app.send_document(
         chat_id=message.chat.id,
         document=HANDSOME,
-        caption=ραккα ѕємαιуα ιяяυкαηgα ℓαє 🙊🙈,
+        caption=ραккα ѕємαιуαιяяυкαηgαℓαє🙊🙈,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
     )
@@ -78,7 +78,7 @@ async def hot(_, message):
     await app.send_document(
         chat_id=message.chat.id,
         document=GAMER,
-        caption=·ᰄ· ṆⲈⲈ•ㄚⲈᑭᑭ❍•ԌშᗰⲈՐ•AAᑎⲈⲈA ·ᰄ·,
+        caption=·ᰄṆⲈⲈㄚⲈᑭᑭ❍ԌშᗰⲈՐAAᑎⲈⲈAᰄ,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
     )
@@ -100,7 +100,7 @@ async def sexy(_, message):
     await app.send_document (
         chat_id=message.chat.id,
         document=COOL,
-        caption=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐬𝐨𝐨 𝐜𝐨𝐨𝐥 !,
+        caption=𝐘𝐨𝐮𝐚𝐫𝐞𝐬𝐨𝐨𝐜𝐨𝐨𝐥!,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
@@ -121,7 +121,7 @@ async def gay(_, message):
     await app.send_document (
         chat_id=message.chat.id,
         document=KOLARU,
-        caption=𝐊𝐨𝐥𝐚𝐫𝐮 𝐥𝐞𝐲 𝐧𝐞𝐞,
+        caption=𝐊𝐨𝐥𝐚𝐫𝐮𝐥𝐞𝐲𝐧𝐞𝐞,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
@@ -142,7 +142,7 @@ async def lesbian(_, message):
     await app.send_document (
         chat_id=message.chat.id,
         document=URUTTU,
-        caption=мє∂αℓ ναηgιтαηgα υяяυтαη ηυ 🙊,
+        caption=мє∂αℓναηgιтαηgαυяяυтαηηυ 🙊,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
@@ -164,7 +164,7 @@ async def boob(_, message):
     await app.send_document (
         chat_id=message.chat.id,
         document=NO,
-        caption=𝙽𝚎𝚎 𝚕𝚊𝚖 𝚢𝚎𝚗𝚗𝚊𝚔𝚞 𝚜𝚎𝚝 𝚊𝚐𝚊 𝚖𝚊𝚝𝚊 ,
+        caption=𝙽𝚎𝚎𝚕𝚊𝚖𝚢𝚎𝚗𝚗𝚊𝚔𝚞𝚜𝚎𝚝𝚊𝚐𝚊𝚖𝚊𝚝𝚊,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
@@ -186,7 +186,7 @@ async def cock(_, message):
     await app.send_document (
         chat_id=message.chat.id,
         document=ACCEPTED,
-        caption=𝐌𝐞𝐨𝐰 𝐌𝐞𝐨𝐰 𝐏𝐨𝐨𝐧𝐚 🐈,
+        caption=𝐌𝐞𝐨𝐰𝐌𝐞𝐨𝐰𝐏𝐨𝐨𝐧𝐚🐈,
         reply_markup=InlineKeyboardMarkup(BUTTON),
         reply_to_message_id=message.reply_to_message.message_id if message.reply_to_message else None,
 )
