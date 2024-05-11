@@ -27,7 +27,7 @@ async def cutie(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    CUTE = f"🍑 {mention} {mm}% 𐤠ȴ𐤠Ɠꓴꓴ 😍🥀"
+    CUTIE = f"🍑 {mention} {mm}% 𐤠ȴ𐤠Ɠꓴꓴ 😍🥀"
 
     await app.send_document(
         chat_id=message.chat.id,
@@ -40,7 +40,7 @@ async def cutie(_, message):
 ###### horny
 
 @app.on_message(filters.command("handsome"))
-async def horny(_, message):
+async def handsome(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -50,7 +50,7 @@ async def horny(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    HORNE = f"🔥 {mention} ɪꜱ {mm} % 𝐇𝐚𝐧𝐝𝐬𝐨𝐦𝐞!"
+    HANDSOME = f"🔥 {mention} ɪꜱ {mm} % Gentleman da nee! 🔥"
 
     await app.send_document(
         chat_id=message.chat.id,
@@ -63,7 +63,7 @@ async def horny(_, message):
 ###### HOT 
 
 @app.on_message(filters.command("gamer"))
-async def hot(_, message):
+async def gamer(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -73,7 +73,7 @@ async def hot(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    HOTIE = f"🔥{mention} ɪꜱ {mm}% GΛMΣЯ!"
+    GAMER = f"Nee {mention} yeppo {mm}% da gamer aane!"
 
     await app.send_document(
         chat_id=message.chat.id,
@@ -86,7 +86,7 @@ async def hot(_, message):
 ########## SEXY 
 
 @app.on_message(filters.command("cool"))
-async def sexy(_, message):
+async def cool(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -107,7 +107,7 @@ async def sexy(_, message):
 
 #########gay
 @app.on_message(filters.command("kolaru"))
-async def gay(_, message):
+async def kolaru(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -117,7 +117,7 @@ async def gay(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    GAYE = f" 🍷 {mention} ɪꜱ {mm}%  𝐊𝐨𝐥𝐚𝐫𝐮 !"
+    KOLARU = f" 🍷 {mention} ɪꜱ {mm}%  𝐊𝐨𝐥𝐚𝐫𝐮 !"
     await app.send_document (
         chat_id=message.chat.id,
         document=KOLARU,
@@ -128,7 +128,7 @@ async def gay(_, message):
 
 ########### LESBIAN
 @app.on_message(filters.command("uruttu"))
-async def lesbian(_, message):
+async def uruttu(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -138,7 +138,7 @@ async def lesbian(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    LEZBIAN = f" 🫣 {mention} ɪꜱ {mm}% υяяυтυ!"
+    URUTTU = f" 🫣 {mention} ɪꜱ {mm}% υяяυтυ!"
     await app.send_document (
         chat_id=message.chat.id,
         document=URUTTU,
@@ -150,7 +150,7 @@ async def lesbian(_, message):
 ########### BOOBS
 
 @app.on_message(filters.command("no"))
-async def boob(_, message):
+async def no(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -160,7 +160,7 @@ async def boob(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    BALL = f"  {mention}ꜱ  {mm} ! "
+    NO = f"  {mention}ꜱ  {mm} ! "
     await app.send_document (
         chat_id=message.chat.id,
         document=NO,
@@ -172,7 +172,7 @@ async def boob(_, message):
 ######### COCK
 
 @app.on_message(filters.command("accepted"))
-async def cock(_, message):
+async def accepted(_, message):
     if not message.reply_to_message:
         user_id = message.from_user.id
         user_name = message.from_user.first_name
@@ -182,7 +182,7 @@ async def cock(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    BAT = f"  {mention} 𝙔𝙪𝙣𝙜𝙖𝙡𝙪𝙠𝙪 𝙑𝙖𝙣𝙩𝙝𝙖 {mm} 𝙈𝙖𝙩𝙘𝙝 🐈"
+    ACCEPTED = f"  {mention} Meow Meow {mm} 𝙈𝙖𝙩𝙘𝙝 🐈"
     await app.send_document (
         chat_id=message.chat.id,
         document=ACCEPTED,
