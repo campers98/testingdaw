@@ -182,7 +182,7 @@ async def accepted(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    ACCEPTED = f"  {mention} Meow Meow {mm} 𝙈𝙖𝙩𝙘𝙝 🐈"
+    ACCEPTED = f" 🐈 {mention} Meow Meow {mm}𝙈𝙖𝙩𝙘𝙝🐈"
     await app.send_document (
         chat_id=message.chat.id,
         document=ACCEPTED,
