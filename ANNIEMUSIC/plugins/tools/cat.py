@@ -9,7 +9,7 @@ from config import BANNED_USERS
 
 close_keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text=⑆ ⲅⲉⳑⲟⲇ𝖽 ⑆", callback_data="refresh_cat")],
+        [InlineKeyboardButton(text="⑆ ⲅⲉⳑⲟⲇ𝖽 ⑆", callback_data="refresh_cat")],
         [InlineKeyboardButton(text="𓆱 𝙲𝚕𝚘𝚜𝚎 𓆱", callback_data="close")],
     ]
 )
