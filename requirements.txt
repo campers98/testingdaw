@@ -57,5 +57,5 @@ aiogram
 cloudscraper
 pycryptodome
 opencv-python
-pymongo
+pymongo[srv]==4.7.2
 pyyaml
