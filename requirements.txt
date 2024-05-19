@@ -58,3 +58,4 @@ cloudscraper
 pycryptodome
 opencv-python
 pymongo
+pyyaml
